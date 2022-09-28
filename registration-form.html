@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="./assets/style/style3.css">
+    <link rel="icon" href="./assets/LogoMightyDuck1.png">
+</head>
+
+<body>
+    <header>
+        <h1>Mighty Ducks Hockey League</h1>
+        <img class="logo" src="./assets/LogoMightyDuck1.png" width="300" height="300" alt="logo MDHL">
+        <nav>
+            <a class="button" href="./index.html">Home</a>
+            <a class="button" href="./about.html">About MDHL</a>
+            <a class="button" href="./contact.html">Contact</a>
+            <a class="button" href="./game-information.html">Game Information</a>
+            <a class="button" href="./rules-of-play-and-policies.html">Rules of play and policies</a>
+            <a class="button" href="#">Registration Form</a>
+        </nav>
+    </header>
+    <h2>Registration Form</h2>
+    <form action="./show_data.html" method="get">
+        <fieldset class="margin-form">
+
+            <legend>Registration Form</legend>
+            <label>Player's First Name:
+                <input type="text" name="name" value="">
+            </label>
+            <label>
+                Last Name:
+                <input type="text" name="last name" value="">
+            </label>
+            <label>
+                Street Address:
+                <input type="text" name="street address" value="">
+            </label>
+            <label>
+                City:
+                <input type="text" name="city" value="">
+            </label>
+            <label>
+                Zip Code:
+                <input type="text" name="zip code" value="">
+            </label>
+            <label>
+                Birth Date (mm/dd/yyyy)
+                <input type="date" name="birth date" value="">
+            </label>
+
+        </fieldset>
+        <fieldset class="margin-form">
+            <legend>Gender:</legend>
+            <label class="margin-form1">
+                Female
+                <input type="radio" name="sex" value="Fem">
+            </label>
+            <label>
+                Male
+                <input type="radio" name="sex" value="Male">
+            </label>
+        </fieldset>
+        <fieldset class="margin-form">
+            <legend>Grades:</legend>
+            <label class="margin-form1">
+                Pre-School
+                <input type="checkbox" name="preschool" value="pre">
+            </label>
+            <label class="margin-form1">
+                1st
+                <input type="checkbox" name="1st" value="1st">
+            </label>
+            <label class="margin-form1">
+                2nd
+                <input type="checkbox" name="2nd" value="2nd">
+            </label>
+            <label class="margin-form1">
+                3rd
+                <input type="checkbox" name="3rd" value="3rd">
+            </label>
+            <label class="margin-form1">
+                4th
+                <input type="checkbox" name="4th" value="4th">
+            </label>
+            <label class="margin-form1">
+                5th
+                <input type="checkbox" name="5th" value="5th">
+            </label>
+        </fieldset class="margin-form">
+        <span class="wh">Which elementary school do you live near?</span>
+        <fieldset class="margin-form">
+            <legend>Closest School:</legend>
+            <label class="margin-form1">
+                AJ katzenmaier
+                <input type="checkbox" name="location" value="AJ K">
+            </label>
+            <label class="margin-form1">
+                Greenbay
+                <input type="checkbox" name="location" value="Gre">
+            </label>
+            <label class="margin-form1">
+                Howard A Yeager
+                <input type="checkbox" name="location" value="H.A.Y">
+            </label>
+            <label class="margin-form1">
+                Marjorie P Hart
+                <input type="checkbox" name="location" value="M.P.H">
+            </label>
+            <label class="margin-form1">
+                North Elementary
+                <input type="checkbox" name="location" value="N.E">
+            </label>
+            <label class="margin-form1">
+                South Elementary
+                <input type="checkbox" name="location" value="S.E">
+            </label>
+        </fieldset class="margin-form">
+        <span class="wh">What position(s) do you normally play?(check all that apply)</span>
+        <fieldset class="margin-form">
+            <label class="margin-form1">
+                Forward
+                <input type="checkbox" name="position" value="Forw">
+            </label>
+            <label class="margin-form1">
+                Midfield
+                <input type="checkbox" name="position" value="Mid">
+            </label>
+            <label class="margin-form1">
+                Defense
+                <input type="checkbox" name="position" value="Def">
+            </label>
+            <label class="margin-form1">
+                Goalkeeper
+                <input type="checkbox" name="position" value="Goal">
+            </label>
+        </fieldset>
+        <span class="wh">Uniform Size</span>
+        <fieldset class="margin-form">
+            <label class="margin-form1">
+                Youth Smal
+                <input type="checkbox" name="uniform" value="Y.S">
+            </label>
+            <label class="margin-form1">
+                Youth Medium
+                <input type="checkbox" name="uniform" value="Y.M">
+            </label>
+            <label class="margin-form1">
+                Youth Large
+                <input type="checkbox" name="uniform" value="Y.L">
+            </label>
+            <label class="margin-form1">
+                Small
+                <input type="checkbox" name="uniform" value="S">
+            </label>
+            <label class="margin-form1">
+                Medium
+                <input type="checkbox" name="uniform" value="M">
+            </label>
+            <label class="margin-form1">
+                Large
+                <input type="checkbox" name="uniform" value="L">
+            </label>
+            <label class="margin-form1">
+                Extra-Large
+                <input type="checkbox" name="uniform" value="E.L">
+            </label>
+        </fieldset>
+        <span class="wh">Permission to Play</span>
+        <fieldset class="margin-form">
+            <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
+                rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
+                associated with hockey and in consideration for the "League" accepting the registrant for its hockey
+                programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees
+                and associated personal and volunteers, including the facilities used for practices and games,
+                against any claim by or on behalf of the registrant as a result of the registrants participation in the
+                programand/orbeing transported to or from MDHL sponsored activities, which transpostation.
+                By signing below, I herebyagree andauthorizethe above. In addition, by signing below, also acknowledge
+                that I have read the cancellation policy and agree to its terms.
+            </p>
+        </fieldset>
+        <fieldset class="margin-form">
+            <label class="margin-form1">Parent/Guardian Signature:
+                <input type="text">
+            </label>
+            <label class="margin-form1">Data:
+                <input type="date">
+            </label>
+            <label>
+                <input class="submit" type="submit" value="submit">
+            </label>
+        </fieldset>
+    </form>
+
+    <footer>
+        <p class="copyright">Copyright MDHL 2022 & JPIG.</p>
+    </footer>
+
+</body>
+
+</html>
