@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+}
+
+body {
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+
+header{
+    background-image: url(../hielo11.jpg);
+    background-position: 50% ;
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column-reverse; 
+}
+
+h1 { 
+    width: 100%;
+    height: 10%;
+    font-size: 30px;
+    text-align: center;
+    color: #D82626;
+    text-transform: capitalize;
+    color: #000000;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+h2 {
+    background-color: #D82626;
+    color: black;
+    text-align: center;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-size: 150%;
+}
+
+nav{
+   /*  position: absolute;
+    right: 2%;
+    top: 4%; */
+    display: flex;
+    justify-content: space-between; 
+    /* box-shadow: 5px 5px 5px #000000; */
+    width: 800px; 
+}
+
+a:hover {
+    color: rgb(255, 252, 61);
+} 
+
+a:active {
+    color: rgb(255, 252, 61);
+    background-color: rgb(81, 127, 164);
+  }
+
+a:focus{
+    background-color: rgb(81, 127, 164);
+}  
+
+.button {
+    background-color: #444;
+    border-radius: 6px;
+    color: azure;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    background: rgb(0, 0, 0);
+    border: 4px solid #D82626;
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    box-shadow: 5px 5px 5px #000000;
+} 
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-between;
+    padding: 5%;
+
+}
+
+.div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.div3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.hockey1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 400px;
+    margin: 10px;
+    border: 3px solid black;
+    
+}
+
+.hockey2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    margin: 10px;
+    border: 3px solid black
+}
+
+.hockey3{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 400px;
+    margin: 40px;
+    border: 3px solid black
+    
+}
+
+.hockey4{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 10px;
+    border: 3px solid black
+}
+
+.hockey5{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 40px;
+    border: 3px solid black
+}
+
+.hockey6{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 10px;
+    border: 3px solid black
+}
+
+.article{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    text-align: center;
+}
+
+.article1{
+
+    width: 72rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.article2{
+
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+li{
+    font-size: 23px;
+  }
+  
+  
+.list {
+    list-style: square inside;
+    font-style: italic;
+
+  }
+  
+.li-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+p{
+    margin: 10px;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  
+.content{
+    margin: 30px;
+    padding: 30px;
+  }
+  
+
+.info{
+    padding-top: 30px;
+    margin:0 auto;
+}
+
+.table{
+    width: 100%; 
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.table1{
+    display: inline;
+    align-items: center;
+    text-align: center;
+}
+
+
+.tabla{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 5px;
+    text-align: center;
+
+}
+
+.mailto{
+    font-size: 23px;
+}
+
+.tel{
+    font-size: 23px; 
+}
+
+.div4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.estadio{
+    width: 600px;
+    display: flex;
+    border: 3px solid black
+}
+
+.margin-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 20px;
+    padding: 20px;
+
+}
+
+.margin-form1{
+    padding: 10px;
+}
+
+.wh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 20px;
+    padding: 20px;
+    font-size: 23px
+}
+
+.submit{
+    margin: 35px 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    height: 80px;
+}
+
+.copyright {
+   font-size: large;
+   margin: 5px;
+}
